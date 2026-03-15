@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Flashcards</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    padding: 40px;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #2a2a2a;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+}
+
+.question-image {
+    max-width: 230px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+</style>
+
+<script>
+
+function toggleAnswer(card)
+{
+    let answer = card.querySelector(".answer");
+
+    if(answer.style.display === "none" || answer.style.display === "")
+    {
+        answer.style.display = "block";
+    }
+    else
+    {
+        answer.style.display = "none";
+    }
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>ULTIMATE KRESZ TESZT😱😱😱😱😱😱</h1>
+
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Gépjármüvel közlekedve szabad-e behajtani a jelzötáblával jelzett területre?</h2>
+    <img src="./1/1.png" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Kanyarodhat-e balra ennél a jelzésnel?</h2>
+    <img src="1/2.png" class="question-image">
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mit jelez az úttest jobb szélén lévo táblán látható számérték?</h2>
+    <img src="1/3.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Azt a sebességet, amellyel forgalomirányitó fényjelzo készülékek elött az egyenletesm haladás erdekében közlekedni célszerü.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a müszerfallal jelzett jármüvet vezeti. Szabad-e megelöznie a vasúti átjáróban a jelu kétkerekü motorkerékpárost?</h2>
+    <img src="1/4.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Az ábrán látható útkeresztezödésben melyik a helyes áthaladási sorrend?</h2>
+    <img src="1/5.jpg" class="question-image">
+    <p class="answer">Helyes válasz: B-A-C</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön az "A" jelu jarmüvet vezeti. Kell-e elsöbbséget adnia ebben a forgalmi helyzetben?</h2>
+    <img src="1/6.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Igen de csak a B részére</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Van-e az általános szabályoktól eltéro elsöbbségük a figyelmezteto jelzést használó jármüveknek a többi jarmüvel szemben?</h2>
+    
+    <p class="answer">Helyes válasz: Nincs</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Kell-e izzókészletet tartanunk a jarmüben?</h2>
+    
+    <p class="answer">Helyes válasz: Nem kötelezö, de ajanlott. </p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>A segédmotoros kerékpáron elhelyezett rakomány...</h2>
+    <p class="answer">Helyes válasz: a vezetöt nem akadályozhatja a jármu vezetésében.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Az ábrán látható helyen örizetlenül hagyhatja-e jarmüvét az "A" jell motorkerékpár vezetöje?</h2>
+    <img src="2/1.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Milyen feltételek teljesülése esetén szabad elözni bukkanóban?</h2>
+    <p class="answer">Helyes válasz: Ha záróvonal van felfestve, és az elözés nem jár annak érintésével.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hányadikként haladhat át az útkeresztezödésben a müszerfallal jelzett jármüvel?</h2>
+    <img src="2/2.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Elsöként</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a müszerfallal jelzett jármüvet vezeti. A háromlencsés forgalomírányitó készülék melyik fényjelzésének feleltetheto meg a film végen látható rendöri karjelzés?</h2>
+    <img src="2/3.jpg" class="question-image">
+    <p class="answer">Helyes válasz: A piros-sárga jelzésnek.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ha a bekanyarodast nem tiltja jelzotabla, milyen irányban folytathatja útjat a "B" jelu jarmü ennél a rendöri jelzésnél?</h2>
+    <img src="2/4.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Egyenesen, valamint jobbra vagy balra bekanyarodva.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Figyelembe kell-e vennie a távolsági fenyszóró használatakor az úttal parhuzamos vizi úton haladó jarmüvet?</h2>
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Négykerekü (quad) segédmotoros kerékpárjával vontathat-e elromlott ketkereku segédmotoros kerékpárt?</h2>
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mi lehet az oka annak, ha a gumiabroncs felulete egyenetlenül kopik?</h2>
+    <p class="answer">Helyes válasz: Hibás a lengéscsillapító.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mennyi lehet a meghajtólánc ábrán látható legnagyobb elmozdulása a meghajtolánc ellenörzésekor?</h2>
+    <img src="2/6.jpg" class="question-image">
+    <p class="answer">Helyes válasz: 4 mm</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Milyen irányú a forgalom olyan úton, amelyen három, egymástól elkülönitett uttest van?</h2>
+    <p class="answer">Helyes válasz: A középso úttesten kétirányú, a szélso úttesteken egyirányu forgalom van.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Lakott területen, egyéb jelzés hiányában legfeljebb mekkora sebességgel szabad jármüvel közlekedni a képen jelzett, táblát követo útszakaszon?</h2>
+    <img src="3/1.jpg" class="question-image">
+    <p class="answer">Helyes válasz: 30km/h val</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>A körforgalomban egy olyan villamospályát keresztez, amelyen egy villamos hajt be a körforgalomba. Mikor jar el szabályosan?</h2>
+    <p class="answer">Helyes válasz: Ha elsöbbséget ad a körforgalmat keresztezo villamos részére.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mi a jelzötábla jelentése?</h2>
+    <img src="3/2.png" class="question-image">
+    <p class="answer">Helyes válasz: "Kerékpáros közvetett kapcsolat".</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a vonat elhaladása után milyen sebességgel köteles a vasúti átjárón áthajtani a müszerfallal jelzett jarmüvel?</h2>
+    <p class="answer">Helyes válasz: Legalább 5 km/h átlagsebességgel.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hideg idöben hol számíthatunk fokozottan az útfelület eljegesedésére?</h2>
+    <p class="answer">Helyes válasz: Hidakon, felüljárókon, erdösávval védett útszakaszokon.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Miert szükséges a jarmu motorjának hütése?</h2>
+    <p class="answer">Helyes válasz: A jármü motorjának ideális, üzemi hömérsékleten tartása miatt.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Az út vagy közmű tisztítását végző jármű...</h2>
+    <p class="answer">Helyes válasz: legfeljebb 10 km/h sebességgel a járdán is közlekedhet.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a műszerfallal jelzett járművet vezeti. Kell-e elsőbbséget adnia a képen látható helyzetben?</h2>
+    <img src="3/3.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mely járművekre vonatkozik a fényjelző készülékkel együtt elhelyezett, kötelező haladási irányt jelző tábla utasítása?</h2>
+    <p class="answer">Helyes válasz: Azokra, amelyekre a fényjelző készülék jelzése irányadó.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Egyéb jelzés hiányában mekkora sebességgel szabad közlekedni lassú járműből és pótkocsiból álló jármúszerelvénnyel?</h2>
+    <p class="answer">Helyes válasz: Legfeljebb 25 km/h sebességgel.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mit jelent ez a közúti jelzés?</h2>
+    <img src="4/1.png" class="question-image">
+    <p class="answer">Helyes válasz: Helyes válasz: A szabálytalanul várakozó jarmüvet elszállíthatják.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Találkozhat-e lakott területen kapaszkodósáv jelzőtáblával?</h2>
+    <img src="4/2.png" class="question-image">
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e vasúti átjáróban és közvetlenül elötte motorkerékpárral megelözni a kétkerekű kerékpart?</h2>
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Kell-e a megállást- ide nem értve a forgalmi okból történo megállást - irányjelzéssel jelezni?</h2>
+    <p class="answer">Helyes válasz: Igen, kell.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Motorkerékpárral szabad-e pótkocsit vontatni?</h2>
+    <p class="answer">Helyes válasz: Igen, de csak olyan pótkocsit, amelynek vontatását a motorkerékpár forgalmi engedélyében engedélyezték.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabályos-e, ha a közterület-felügyelő a jarmu megállítására vonatkozó jelzést ad a motorkerékpáros számára?</h2>
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mit NEM szabad megtenni az alábbiak közül a képen látható tábla hatálya alatt?</h2>
+    <img src="5/1.png" class="question-image">
+    <p class="answer">Helyes válasz: 3 percre all meg a jármüvel és erre az idöre elhagyja azt.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>A jelzötáblát követõen szabad-e várakozni a járdan kétkereku motorkerékpárral?</h2>
+    <img src="5/1.png" class="question-image">
+    <p class="answer">Helyes válasz: Igen, az elöírt feltételek fennállása esetén.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön autópályan utolér egy ilyen táblával megjelölt autóbuszt. Megelözheti-e?</h2>
+    <img src="5/2.png" class="question-image">
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Amikor a vasúti átjáróban lévő teljes sorompót kiegészito hangjelzo berendezés hangjelzést ad, akkor...</h2>
+    <p class="answer">Helyes válasz: köteles a vasúti átjáró elött megállni, akkor is, ha a sorompó rúdja még nyitott helyzetben van.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e autóútról út menti ingatlanra behajtani?</h2>
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Milyen feltételek teljesülése esetén szabad elözni be nem látható útkanyarulatban?</h2>
+    <p class="answer">Helyes válasz: Ha záróvonal van felfestve,és az elözés nem jar annak érintésével.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a műszerfallal jelzett jármüvet vezeti. Kell-e elsöbbséget adnia ebben a forgalmi helyzetben?</h2>
+    <img src="5/3.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Igen, de csak a 'C" jelu jarmü részére</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Az "A" jelu motorkerékpár a megallóhelyen megálló villamost...</h2>
+    <img src="5/4.jpg" class="question-image">
+    <p class="answer">Helyes válasz: nem kerülheti ki.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a műszerfallal jelzett jarmüvet vezeti. Hányadikként haladhat át az útkeresztezödésben?</h2>
+    <img src="5/5.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Másodikként</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>A látottak alapjan milyen sebességgel vezetheti jarmüvét a film vegen ábrázolt helyzetben?</h2>
+    <img src="5/6.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Legfeljebb 50 km/h sebességgel.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Kell-e ellenörizni az üzemi fék müködöképességét?</h2>
+    <p class="answer">Helyes válasz: Igen, legalább a napi elso elindulás elött.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mit nevezünk holttérnek?</h2>
+    <p class="answer">Helyes válasz: A látótéren kívüli területet.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ha a gyalogosok csak az úttesten tudnak közlekedni, akkor lakott területen...</h2>
+    <p class="answer">Helyes válasz: lehetöleg a menetirány szerint a bal oldalon haladhatnak.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Egyéb jelzés hiányában mekkora sebességgel szabad közlekedni lassú jármúból és pótkocsiból álló jármüszerelvénnyel?</h2>
+    <p class="answer">Helyes válasz: Legfeljebb 25 km/h sebességgel.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Forgalmi sávnak minősül-e az úttest villamospálya által elfoglalt része a párhuzamos közlekedésre vonatkozó szabályok alkalmazása szempontjából?</h2>
+    <p class="answer">Helyes válasz: Általában nem.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e megállni kétkerekű segédmotoros kerékpárral járdán, ha ennek lehetőségét nem jelzi jelzőtábla, vagy útburkolati jel?</h2>
+    <p class="answer">Helyes válasz: Igen, ha a jármú a járda szélességének legfeljebb a felét foglalja el és a járdán a gyalogosok közlekedésére legalább 1,5 méter szabadon marad. </p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Motorkerékpárt vezetve köteles-e megállni a polgárör piros fényü lámpával adott jelzésére?</h2>
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hány fajta jelzést képes adni a gyalogosforgalom irányitására szolgáló fényjelzö készülék?</h2>
+    <p class="answer">Helyes válasz: Három</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e utast szállitani négykerekü segédmotoros kerékpárral?</h2>
+    <p class="answer">Helyes válasz: Igen, ha a jármű vezetöje betöltötte a 17. életévét.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Egyéb jelzés hiányában mekkora sebességgel szabad közlekedni motorkerékpárral autóúton?</h2>
+    <p class="answer">Helyes válasz: Legfeljebb 110 km/h sebességgel.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mi a jelző tábla neve?</h2>
+    <img src="7/1.png" class="question-image">
+    <p class="answer">Helyes válasz: Út meletti kerékpárút.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e elöznie az "A" jelü motorkerékpárosnak egyszerre több járművet az ábrán látható helyen?</h2>
+    <img src="7/2.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e akadályoznia a késöbb odaérkezö villamos forgalmát, ha a villamospályára vezetett forgalmi sávban közlekedve tilos jelzést kapott?</h2>
+    <p class="answer">Helyes válasz: Igen</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e várakozni lakott területen kívüli út úttestjén?</h2>
+    <p class="answer">Helyes válasz: Igen, ha az nem főútvonal.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a műszerfallal jelzett járművet vezeti. Kell-e elsőbbséget adnia ebben a forgalmi helyzetben?</h2>
+    <img src="7/3.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Az ábrán látható útkereszteződésben melyik a helyes áthaladási sorrend?</h2>
+    <img src="7/4.jpg" class="question-image">
+    <p class="answer">Helyes válasz: A-C-B</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hányadikként haladhat át az útkereszteződésben a "C” jelű jármű?</h2>
+    <img src="7/5.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Elsõként</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Ön a "C” jelü járművet vezeti. Továbbhaladhat-e az útkereszteződésben, ha a rendőrt a képen látható karjelzéssel látja?</h2>
+    <img src="7/6.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hányadik közlekedési előéleti pont elérését követően kerül a vezetői engedély visszavonásra?</h2>
+    <p class="answer">Helyes válasz: 18.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Mikor nem irányadó a "Főútvonal” jelzőtábla jelzése?</h2>
+    <p class="answer">Helyes válasz: Ha a forgalmat fényjelzó készülék irányítja.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Hol helyezhetik el az ábrán látható táblát az alábbiak közül?</h2>
+    <img src="8/1.png" class="question-image">
+    <p class="answer">Helyes válasz: Útkereszteződésben és vasúti átjáróban egyaránt.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>Szabad-e megállni kétkerekű motorkerékpárral az úttest szélén egymás mellett két sorban, vagy az úttest széléhez viszonyítva ferdén?</h2>
+    <p class="answer">Helyes válasz: Igen, egyéb jelzés hiányában, de a járművek az úttestből egy személygépkocsi szélességénél többet nem foglalnak el.</p>
+</div>
+
+<div class="card" onclick="toggleAnswer(this)">
+    <h2>A "B” jelü járművet vezetve elsőként haladhat át ebben az útkereszteződésben?</h2>
+    <img src="8/2.jpg" class="question-image">
+    <p class="answer">Helyes válasz: Nem</p>
+</div>
+
+</body>
+</html>
